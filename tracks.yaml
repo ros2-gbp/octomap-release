@@ -149,8 +149,7 @@ tracks:
     ros_distro: humble
     vcs_type: git
     vcs_uri: https://github.com/OctoMap/octomap.git
-    version: 1.9.7
-    version_saved: :{auto}
+    version: :{auto}
   hydro:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
