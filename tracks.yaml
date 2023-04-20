@@ -214,7 +214,7 @@ tracks:
     last_version: 1.9.8
     name: octomap
     patches: ' '
-    release_inc: '2'
+    release_inc: '3'
     release_repo_url: null
     release_tag: v:{version}
     ros_distro: iron
