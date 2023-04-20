@@ -220,8 +220,7 @@ tracks:
     ros_distro: iron
     vcs_type: git
     vcs_uri: https://github.com/OctoMap/octomap.git
-    version: 1.9.8
-    version_saved: :{auto}
+    version: :{auto}
   jade:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
