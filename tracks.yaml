@@ -371,5 +371,4 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/OctoMap/octomap.git
-    version: 1.9.8
-    version_saved: :{auto}
+    version: :{auto}
