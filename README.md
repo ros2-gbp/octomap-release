@@ -1,3 +1,29 @@
+## octomap (rolling) - 1.10.0-3
+
+The packages in the `octomap` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling octomap` on `Wed, 20 Mar 2024 12:03:45 -0000`
+
+These packages were released:
+- `dynamic_edt_3d`
+- `octomap`
+- `octovis`
+
+Version of package(s) in repository `octomap`:
+
+- upstream repository: https://github.com/OctoMap/octomap.git
+- release repository: https://github.com/ros2-gbp/octomap-release.git
+- rosdistro version: `1.9.8-3`
+- old version: `1.10.0-2`
+- new version: `1.10.0-3`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## octomap (rolling) - 1.10.0-2
 
 The packages in the `octomap` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling octomap --non-interactive` on `Wed, 20 Mar 2024 11:40:47 -0000`
