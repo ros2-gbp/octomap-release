@@ -1,0 +1,13 @@
+Source: ros-jazzy-octovis
+Section: misc
+Priority: optional
+Maintainer: Armin Hornung <armin@hornung.io>
+Build-Depends: debhelper (>= 9.0.0), cmake, libgl1-mesa-dev, libglu1-mesa-dev, libqglviewer-dev-qt5, libqt5core5a, libqt5opengl5-dev, ros-jazzy-octomap, ros-jazzy-ros-workspace
+Homepage: http://octomap.github.io
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-octovis
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libgl1-mesa-dev, libglu1-mesa-dev, libqglviewer2-qt5, libqt5core5a, libqt5gui5, libqt5opengl5, ros-jazzy-octomap, ros-jazzy-ros-workspace
+Description: octovis is visualization tool for the OctoMap library based on Qt and libQGLViewer.
+ See http://octomap.github.io for details.
